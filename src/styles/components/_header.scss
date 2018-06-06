@@ -1,0 +1,23 @@
+.header {
+  background: $off-black;
+  color: white;
+  margin-bottom: $l-size;
+  padding: $s-size;
+}
+
+.header__title {
+  font-size: $m-size;
+  margin: 0;
+}
+
+.header__subtitle {
+  color: $off-white;
+  font-size: $s-size;
+  font-weight: bold;
+}
+
+@media (min-width: $desktop-beakpoint) {
+  .header {
+    margin-bottom: $l-size;
+  }
+}
